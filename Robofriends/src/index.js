@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Hello from './Hello';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons'
-
-ReactDOM.render(<Hello greeting={'Hello React Ninja'}/>,
+import { robots } from './robots'
+import CardList from './CardList'
+ReactDOM.render(
+  <CardList robots={ robots }/>,
   document.getElementById('root')
 );
 
