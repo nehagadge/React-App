@@ -1,3 +1,7 @@
-# React-App
+# RoboFriends
 
-#### Project from Udemy Course : Zero to Mastery Complete Web Developer in 2021
+To run the project:
+
+Clone this repo
+Run npm install
+Run npm start
