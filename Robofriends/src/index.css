@@ -2,5 +2,20 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: linear-gradient(to left, rgb(255, 0, 255), rgb(0, 217, 255)); /* w3c */
+  --my-blue: rgb(53, 73, 94);
+  --my-green: rgb(65, 184, 131);
+  --my-white: rgb(255, 255, 255);
+  --lin-gradient: linear-gradient(
+    to right,
+    var(--my-green),
+    var(--my-white),
+    var(--my-blue)
+  );
+  --rad-gradient: radial-gradient(
+    at center,
+    var(--my-white),
+    var(--my-green),
+    var(--my-blue)
+  );
+  background: var(--lin-gradient);
 }
