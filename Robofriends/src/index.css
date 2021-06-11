@@ -2,20 +2,5 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  --my-blue: rgb(53, 73, 94);
-  --my-green: rgb(65, 184, 131);
-  --my-white: rgb(255, 255, 255);
-  --lin-gradient: linear-gradient(
-    to right,
-    var(--my-green),
-    var(--my-white),
-    var(--my-blue)
-  );
-  --rad-gradient: radial-gradient(
-    at center,
-    var(--my-white),
-    var(--my-green),
-    var(--my-blue)
-  );
-  background: var(--lin-gradient);
+  background: linear-gradient(to right, rgb(1, 6, 70), white, rgb(2, 97, 2) 100%);
 }
