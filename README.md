@@ -1,5 +1,8 @@
 # RoboFriends
 
+![image](https://user-images.githubusercontent.com/28638625/127364544-76be9fc7-55be-4530-88e2-e8ad33978068.png)
+
+
 Developed a React app that integrates with a robot's API to fetch random robot images by searching them and display them on the website.
 
 This project is based on a tutorial project called Robofriends from Andrei Neagoie's Udemy course: The Complete Web Developer in 2021: Zero to Mastery. It's a wonderful course and I highly recommend it!
